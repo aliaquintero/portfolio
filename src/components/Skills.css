@@ -15,6 +15,10 @@ ul {
   list-style-type: none;
 }
 
+li > li {
+  padding: 1em;
+}
+
 li i {
   font-size: 3em;
 }

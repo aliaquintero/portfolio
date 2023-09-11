@@ -18,7 +18,7 @@ export default function Contact() {
       <label htmlFor="email">Your Email</label>
       <input type="email" id="email" />
       <label htmlFor="message">Your Message</label>
-      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      <textarea name="message" id="message" cols="28" rows="8"></textarea>
       <button type="submit">Send</button>
     </form>
   );

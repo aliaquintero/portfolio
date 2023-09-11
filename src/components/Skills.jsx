@@ -7,27 +7,27 @@ export default function Skills() {
       <ul>
         <li>
           <i className="fa-brands fa-html5" title="HTML"></i>
-          <p>HTML</p>
+          <li>HTML</li>
         </li>
         <li>
           <i className="fa-brands fa-css3-alt" title="CSS"></i>
-          <p>CSS</p>
+          <li>CSS</li>
         </li>
         <li>
           <i className="fa-brands fa-square-js" title="JavaScript"></i>
-          <p>JavaScript</p>
+          <li>JavaScript</li>
         </li>
         <li>
           <i className="fa-brands fa-bootstrap" title="Bootstrap"></i>
-          <p>Bootstrap</p>
+          <li>Bootstrap</li>
         </li>
         <li>
           <i className="fa-brands fa-react" title="React"></i>
-          <p>React</p>
+          <li>React</li>
         </li>
         <li>
           <i className="fa-brands fa-github" title="GitHub"></i>
-          <p>GitHub</p>
+          <li>GitHub</li>
         </li>
       </ul>
     </section>

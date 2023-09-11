@@ -1,1 +1,4 @@
-
+p {
+  border-left: 6px solid lightgray;
+  padding-left: 1em;
+}
