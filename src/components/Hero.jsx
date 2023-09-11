@@ -1,4 +1,6 @@
-export default function Header() {
+import "./Hero.css";
+
+export default function Hero() {
   return (
     <header className="container xl mx-auto px-4">
       <h1>Hey, I&apos;m Alia.</h1>
