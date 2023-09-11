@@ -1,15 +1,34 @@
+import "./Skills.css";
+
 export default function Skills() {
   return (
     <section>
-      <h2>Skills</h2>
+      <h3>Skills</h3>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Bootstrap</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>Github</li>
+        <li>
+          <i class="fa-brands fa-html5" title="HTML"></i>
+          <p>HTML</p>
+        </li>
+        <li>
+          <i class="fa-brands fa-css3-alt" title="CSS"></i>
+          <p>CSS</p>
+        </li>
+        <li>
+          <i class="fa-brands fa-square-js" title="JavaScript"></i>
+          <p>JavaScript</p>
+        </li>
+        <li>
+          <i class="fa-brands fa-bootstrap" title="Bootstrap"></i>
+          <p>Bootstrap</p>
+        </li>
+        <li>
+          <i class="fa-brands fa-react" title="React"></i>
+          <p>React</p>
+        </li>
+        <li>
+          <i class="fa-brands fa-github" title="GitHub"></i>
+          <p>GitHub</p>
+        </li>
       </ul>
     </section>
   );

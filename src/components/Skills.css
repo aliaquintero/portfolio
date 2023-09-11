@@ -1,0 +1,32 @@
+section {
+  padding: 2em;
+  background-color: #15372b;
+  color: #fff;
+}
+
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+ul {
+  margin: auto;
+  min-height: 30vh;
+  width: 80%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  list-style-type: none;
+}
+
+li i {
+  font-size: 3em;
+}
+
+@media only screen and (min-width: 768px) {
+  ul {
+    padding: 2em;
+    grid-template-columns: 33% 33% 33%;
+  }
+}
