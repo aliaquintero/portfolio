@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
+  overscroll-behavior: none;
 }
 
 ::selection {

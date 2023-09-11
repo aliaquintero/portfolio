@@ -11,6 +11,7 @@ export default function Contact() {
   const onSubmit = () => {
     alert("submitted");
   };
+
   return (
     <form
       action="POST"
