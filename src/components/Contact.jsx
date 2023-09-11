@@ -19,6 +19,7 @@ export default function Contact() {
       onSubmit={handleSubmit(onSubmit)}
     >
       <h3>Get In Touch</h3>
+      <input type="hidden" name="contact" value="contact" />
       <label htmlFor="name">Your Name</label>
       <input type="text" id="name" {...register("name", { required: true })} />
       {errors.name && <span>Your name is required</span>}
