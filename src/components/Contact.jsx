@@ -8,9 +8,7 @@ export default function Contact() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = () => {
-    alert("submitted");
-  };
+  const onSubmit = (data) => data;
 
   return (
     <form
