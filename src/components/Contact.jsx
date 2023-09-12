@@ -5,13 +5,13 @@ export default function Contact() {
     <div>
       <form
         action=""
-        name="contact"
+        name="contact-form"
         method="POST"
         data-netlify="true"
         onSubmit="submit"
       >
         <h3>Get In Touch</h3>
-        <input type="hidden" name="contact-form" value="contact" />
+        <input type="hidden" name="contact-form" value="contact-form" />
         <label htmlFor="name">Your Name</label>
         <input type="text" name="name" id="name" />
         <label htmlFor="email">Your Email</label>
