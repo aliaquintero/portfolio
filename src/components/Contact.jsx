@@ -4,7 +4,6 @@ export default function Contact() {
   return (
     <div>
       <form
-        action=""
         name="contact-form"
         method="POST"
         data-netlify="true"
