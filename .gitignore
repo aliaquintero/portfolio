@@ -7,12 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+TODO.md
 node_modules
 dist
 dist-ssr
 *.local
 
 # Editor directories and files
+.gitignore
 .vscode/*
 !.vscode/extensions.json
 .idea
