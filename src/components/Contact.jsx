@@ -2,7 +2,6 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div>
       <form
         name="contact-form"
         method="POST"
@@ -19,6 +18,5 @@ export default function Contact() {
         <textarea name="message" id="message" cols="30" rows="10"></textarea>
         <button type="submit">Send</button>
       </form>
-    </div>
   );
 }
