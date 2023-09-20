@@ -15,13 +15,14 @@ const Skills = () => {
           <i className="fa-brands fa-square-js" title="JavaScript"></i>
           <li>JavaScript</li>
         </li>
-        <li>
-          <i className="fa-brands fa-bootstrap" title="Bootstrap"></i>
-          <li>Bootstrap</li>
-        </li>
+
         <li>
           <i className="fa-brands fa-react" title="React"></i>
           <li>React</li>
+        </li>
+        <li>
+          <i className="fa-brands fa-npm" title="npm"></i>
+          <li>npm</li>
         </li>
         <li>
           <i className="fa-brands fa-github" title="GitHub"></i>
