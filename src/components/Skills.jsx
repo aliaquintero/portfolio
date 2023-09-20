@@ -1,5 +1,3 @@
-import "./Skills.css";
-
 const Skills = () => {
   return (
     <section>

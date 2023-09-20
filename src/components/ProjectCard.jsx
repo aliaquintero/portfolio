@@ -1,4 +1,3 @@
-import "./ProjectCard.css";
 /* eslint react/prop-types: 0 */
 
 const ProjectCard = ({ title, description, link, repo }) => {
