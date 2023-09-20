@@ -1,6 +1,6 @@
 import "./Contact.css";
 
-export default function Contact() {
+const Contact = () => {
   return (
     <form name="contact" method="post">
       <input type="hidden" name="form-name" value="contact" />
@@ -14,4 +14,6 @@ export default function Contact() {
       <button type="submit">Send</button>
     </form>
   );
-}
+};
+
+export default Contact;

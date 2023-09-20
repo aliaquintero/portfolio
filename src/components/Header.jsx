@@ -1,6 +1,6 @@
-import "./Hero.css";
+import "./Header.css";
 
-export default function Hero() {
+const Header = () => {
   return (
     <header>
       <h1>
@@ -16,4 +16,6 @@ export default function Hero() {
       </p>
     </header>
   );
-}
+};
+
+export default Header;

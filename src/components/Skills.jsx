@@ -1,6 +1,6 @@
 import "./Skills.css";
 
-export default function Skills() {
+const Skills = () => {
   return (
     <section>
       <h3>Skills</h3>
@@ -32,4 +32,5 @@ export default function Skills() {
       </ul>
     </section>
   );
-}
+};
+export default Skills;

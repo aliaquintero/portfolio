@@ -1,5 +1,5 @@
 import "./Footer.css";
-export default function Footer() {
+const Footer = () => {
   return (
     <footer>
       <a
@@ -28,4 +28,6 @@ export default function Footer() {
       </a>
     </footer>
   );
-}
+};
+
+export default Footer;

@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import "./Projects.css";
 
-export default function Projects() {
+const Projects = () => {
   return (
     <div id="container">
       <h3>Projects</h3>
@@ -19,4 +19,5 @@ export default function Projects() {
       />
     </div>
   );
-}
+};
+export default Projects;
