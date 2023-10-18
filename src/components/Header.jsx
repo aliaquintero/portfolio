@@ -8,9 +8,9 @@ const Header = () => {
         A <span>Front End</span> Web Developer.
       </h2>
       <p>
-        I&apos;m a passionate creative and problem-solver with a penchant for
-        front-end technologies. I utilize these skills to support missions in
-        climate technology and web accessibility.
+        I like problem solving, clean code, and good design. I build web applications and bring user interfaces to
+        life. I&apos;ve sharpened and leveraged these skills for over two years to support open
+        source projects and freelance clients.
       </p>
     </header>
   );
